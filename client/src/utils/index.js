@@ -10,6 +10,7 @@ export const renderMap = () => {
   return new Map({
     container: 'root',
     style: 'mapbox://styles/mapbox/streets-v11',
-    zoom: 15
+    zoom: 12,
+    center: [-122.6781832, 45.5195334]
   });
 };
