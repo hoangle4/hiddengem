@@ -1,7 +1,11 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import { Provider } from './context';
+<<<<<<< HEAD
 // import Map from './MainMap';
+=======
+import Map from './views/Map';
+>>>>>>> Map
 // import Dashboard from './Dashboard';
 // import MyAccount from './MyAccount';
 // import SignUp from './Signup';
@@ -16,6 +20,10 @@ const App = () => {
       <Router>
         <Switch>
           <Route exact path='/' component={LandingPage} />
+<<<<<<< HEAD
+=======
+          <Route exact path='/map' component={Map} />
+>>>>>>> Map
         </Switch>
       </Router>
     </Fragment>
