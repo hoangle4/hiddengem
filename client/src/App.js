@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import { Provider } from './context';
-// import Map from './MainMap';
+import Map from './views/Map';
 // import Dashboard from './Dashboard';
 // import MyAccount from './MyAccount';
 // import SignUp from './Signup';
@@ -16,6 +16,7 @@ const App = () => {
       <Router>
         <Switch>
           <Route exact path='/' component={LandingPage} />
+          <Route exact path='/map' component={Map} />
         </Switch>
       </Router>
     </Fragment>
